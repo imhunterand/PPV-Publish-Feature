@@ -9,7 +9,7 @@ except:
     sys.stderr.write('Upgrade to the latest version of AMBuild to continue.\n')
   except:
     sys.stderr.write('AMBuild must be installed to build this project.\n')
-    sys.stderr.write('http://www.alliedmods.net/ambuild\n')
+    sys.stderr.write('http://127.0.0.1/ambuild\n')
   sys.exit(1)
 
 # Hack to show a decent upgrade message, which wasn't done until 2.2.
